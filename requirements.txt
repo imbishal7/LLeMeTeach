@@ -1,0 +1,6 @@
+python-dotenv
+streamlit
+google-generativeai
+python-pptx
+manim
+opencv-python
