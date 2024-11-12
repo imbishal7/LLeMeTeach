@@ -91,7 +91,7 @@ def generate_pptx(pptx, refined_content):
           video_file = make_animation(concept)
           video = slide.add_movie(video_file, Inches(6), Inches(2), Inches(5), Inches(2.8125), transparent_image, 'video/mp4')
           
-    except exception as e:
+    except Exception as e:
         print(e)
         pass
 
